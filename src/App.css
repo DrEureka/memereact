@@ -37,20 +37,21 @@
   }
 }
 
-.meme span{
+.meme span {
   position: absolute;
-    margin-top: 10px;
-    width: 100%;
-    left: 0px;
-    font-size: 38px;
-    color: white;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  margin-top: 10px;
+  width: 100%;
+  left: 0px;
+  font-size: 38px;
+  color: white;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-.meme span:nth-child(1){
-  margin-top: 330px;
+.meme span:nth-child(1) {
+  margin-top: 360px;
 }
 
-.meme img{
+.meme img {
   width: 100%;
 }
