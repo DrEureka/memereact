@@ -33,8 +33,10 @@ function App() {
     });
   }
   return (
-    <div className="App">
-     
+    <div className="App"><br/>
+    <span>Dr. MEME Generator </span>
+     <br/>
+     <br/>
       <select onChange={onChangeImagen}>
         <option value="fire">Casa en llamas</option>
         <option value="futurama">Futurama</option>
