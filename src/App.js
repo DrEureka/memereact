@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import { useState } from 'react';
 import { html2canvas } from 'html2canvas';
+import { useState } from 'react';
+import './App.css';
+
+
 
 function App() {
 
@@ -33,7 +34,7 @@ function App() {
   }
   return (
     <div className="App">
-      MEME<h1 />
+     
       <select onChange={onChangeImagen}>
         <option value="fire">Casa en llamas</option>
         <option value="futurama">Futurama</option>
@@ -41,7 +42,8 @@ function App() {
         <option value="matrix">Matrix</option>
         <option value="philosoraptor">Philosoraptor</option>
         <option value="smart">Smart</option>
-      </select><br />
+      </select> <br/>
+
       <input onChange={onChangeLinea1} type="text" placeholder="Linea 1" /> <br />
       <input onChange={onChangeLinea2} type="text" placeholder="Linea 2" /> <br />
       <button onClick={onClickExportar}>Exportar</button>
